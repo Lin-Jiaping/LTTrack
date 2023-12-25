@@ -30,13 +30,11 @@ def get_main_args():
         args.result_folder = args.result_folder.replace("-val", "-test")
     args.result_sub_folder = os.path.join(args.output_sub_folder, args.result_sub_folder)
 
-    args.seed=6
     return args
 
 
 def get_detector(args):
     det_model_path = args.det_model_path
-    det = None
     if "mot17" in args.dataset.lower():
         if args.test_dataset:
             detector_path = os.path.join(det_model_path, "bytetrack_x_mot17.pth.tar")
