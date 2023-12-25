@@ -1,0 +1,16 @@
+numpy
+torch>=1.7
+opencv_python
+loguru
+scikit-image
+tqdm
+torchvision>=0.10.0
+tensorboard
+lap
+pycocotools
+cython
+cython_bbox
+gdown
+termcolor
+scipy
+https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip
