@@ -8,45 +8,46 @@ This is the official repository of "LTTrack: Rethinking the Tracking Framework f
 ## Setup
 To set up this repository follow the following steps:
 1. Clone this repository and install external dependencies.
-   ```
-   git clone https://github.com/Lin-Jiaping/LTTrack.git
-   
-   cd LTTrack/external/YOLOX
-   python setup.py develop
-   
-   cd ../../external/fast_reid
-   python setup.py develop
-   
-   cd ../../external/TrackEval
-   python setup.py develop
-   
-   cd ../../
-   pip install -r requirements.txt
-   
-   ```
+```
+git clone https://github.com/Lin-Jiaping/LTTrack.git
+
+cd LTTrack/external/YOLOX
+python setup.py develop
+
+cd ../../external/fast_reid
+python setup.py develop
+
+cd ../../external/TrackEval
+python setup.py develop
+
+cd ../../
+pip install -r requirements.txt
+
+```
 
 2. Download the [weights](https://drive.google.com/drive/folders/1Rw2V5oM-YSVZw9OJzzQj5unpoa8FP8HN?usp=sharing) and add them to `LTTrack/weights` directory.
 3. Download [MOT17](https://motchallenge.net/data/MOT17/), [MOT20](https://motchallenge.net/data/MOT20/), and [DanceTrack](https://github.com/DanceTrack/DanceTrack) datasets. The expected folder structure is:
-    ```
-    datasets
-    |——————mot
-    |        └——————train
-    |        └——————test
-    └——————MOT20
-    |        └——————train
-    |        └——————test
-    └——————dancetrack        
-             └——————train
-             └——————val
-             └——————test
-    ```
+ ```
+ datasets
+ |——————mot
+ |        └——————train
+ |        └——————test
+ └——————MOT20
+ |        └——————train
+ |        └——————test
+ └——————dancetrack        
+          └——————train
+          └——————val
+          └——————test
+ ```
 4. Turn the datasets to COCO format.
-   ```
-   # change paths of datasets in the file first.
-   python tools/data/convert_dance_to_coco.py
-   python tools/data/convert_mot17_to_coco.py
-   python tools/data/convert_mot20_to_coco.py
-   ```
+```
+# change paths of datasets in the file first.
+python tools/data/convert_dance_to_coco.py
+python tools/data/convert_mot17_to_coco.py
+python tools/data/convert_mot20_to_coco.py
+```
+
 ## Tracking
 Run LTTrack on DanceTrack:
 ```
