@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
 
-This is the official repository of "LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking".
+This is the official repository of "[LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking](https://ieeexplore.ieee.org/abstract/document/10536914)".
 
 
 ## Setup
