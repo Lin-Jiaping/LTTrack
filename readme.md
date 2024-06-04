@@ -4,6 +4,18 @@
 
 This is the official repository of "[LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking](https://ieeexplore.ieee.org/abstract/document/10536914)".
 
+<table>
+<tr>
+    <td><img src="assets/MOT17-01.gif"></td>
+    <td><img src="assets/MOT17-03.gif"></td>
+    <td><img src="assets/MOT17-07.gif"></td>
+</tr>
+<tr>
+    <td><img src="assets/MOT17-08.gif"></td>
+    <td><img src="assets/MOT17-12.gif"></td>
+    <td><img src="assets/MOT17-14.gif"></td>
+</tr>
+</table>
 
 ## Setup
 To set up this repository follow the following steps:
@@ -66,3 +78,17 @@ python main.py --exp_name MOT20-test --dataset mot20 --test_dataset --track_thre
 
 ## Acknowledgements
 The code base is built upon [OC-SORT](https://github.com/noahcao/OC_SORT), [DeepOC-SORT](https://github.com/GerardMaggiolino/Deep-OC-SORT), [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX), [FastReID](https://github.com/JDAI-CV/fast-reid), [TrackEval](https://github.com/JonathonLuiten/TrackEval). We thank the authors for their wonderful works!
+
+## Citation
+```
+@ARTICLE{10536914,
+  author={Lin, Jiaping and Liang, Gang and Zhang, Rongchuan},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Target tracking;Predictive models;Feature extraction;Computational modeling;Market research;Transformers;Data models;Multi-object tracking;long-term tracking;tracking-by-detection;motion model;data association},
+  doi={10.1109/TCSVT.2024.3404275}}
+```
