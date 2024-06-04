@@ -8,10 +8,12 @@ This is the official repository of "[LTTrack: Rethinking the Tracking Framework 
 <tr>
     <td><img src="assets/MOT17-01.gif"></td>
     <td><img src="assets/MOT17-03.gif"></td>
-    <td><img src="assets/MOT17-07.gif"></td>
 </tr>
 <tr>
+    <td><img src="assets/MOT17-07.gif"></td>
     <td><img src="assets/MOT17-08.gif"></td>
+</tr>
+<tr>
     <td><img src="assets/MOT17-12.gif"></td>
     <td><img src="assets/MOT17-14.gif"></td>
 </tr>
