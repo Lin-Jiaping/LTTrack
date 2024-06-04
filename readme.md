@@ -81,7 +81,7 @@ The code base is built upon [OC-SORT](https://github.com/noahcao/OC_SORT), [Deep
 
 ## Citation
 ```
-@ARTICLE{10536914,
+@ARTICLE{lttrack,
   author={Lin, Jiaping and Liang, Gang and Zhang, Rongchuan},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking}, 
