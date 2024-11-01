@@ -88,9 +88,10 @@ The code base is built upon [OC-SORT](https://github.com/noahcao/OC_SORT), [Deep
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={34},
+  number={10},
+  pages={9866-9881},
   keywords={Target tracking;Predictive models;Feature extraction;Computational modeling;Market research;Transformers;Data models;Multi-object tracking;long-term tracking;tracking-by-detection;motion model;data association},
   doi={10.1109/TCSVT.2024.3404275}}
+
 ```
